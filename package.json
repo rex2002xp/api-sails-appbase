@@ -1,14 +1,17 @@
 {
   "name": "ApplicationBase",
   "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
+  "version": "0.0.1",
+  "description": "Api base para soluciones integrales",
   "keywords": [],
   "dependencies": {
+    "bcrypt": "^1.0.3",
     "include-all": "^1.0.0",
+    "jsonwebtoken": "^7.4.3",
     "rc": "1.0.1",
     "sails": "~0.12.13",
-    "sails-disk": "~0.10.9"
+    "sails-disk": "~0.10.9",
+    "sails-mysql": "^0.11.5"
   },
   "scripts": {
     "debug": "node debug app.js",
@@ -19,6 +22,9 @@
     "type": "git",
     "url": "git://github.com/rex2002xp/ApplicationBase.git"
   },
-  "author": "rex2002xp",
+  "author": {
+    "name": "Victor Hugo Cornejo Calderon",
+    "email": "rex2002xp@gmail.com"
+  },
   "license": ""
 }
